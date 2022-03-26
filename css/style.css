@@ -249,8 +249,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 130rem;
     height: .2rem;
     position: absolute;
-    top: 31
-    rem;
+    top: 31rem;
     left: 50%;
     transform: translate(-50%, 0);
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);

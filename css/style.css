@@ -217,19 +217,23 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-.process-img{
+.section-icon{
     width: 9rem;
     height: 4.5rem;
 }
 
-.process-header {
+.process-img {
+    transform: rotate(45deg);
+}
+
+.section-header {
     margin-bottom: 4.9rem;
     font-size: 4.8rem;
     font-weight: 700;
     line-height: 140%;
 }
 
-.process__title {
+.title {
     display: flex;
 }
 
@@ -272,4 +276,114 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     line-height: 140%;
     opacity: .5;
+}
+
+/*team*/
+
+.team_title {
+    margin-bottom: 11.9rem;
+}
+
+.team-img {
+    margin-right: 2rem;
+}
+
+.team-header {
+    margin-bottom: 0;
+}
+
+.team__wrap {
+    padding-bottom: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team__item-img {
+    margin-bottom: 4rem;
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50%;
+}
+
+.team__item-heading {
+    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.team_-item-discrition {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    line-height: 160%;
+}
+
+.team__item-link{
+    font-size: 1.6rem;
+    line-height: 150%;
+    border: 1px solid #fff;
+}
+
+/*assambly*/
+
+.assambly {
+    padding-bottom: 24.4rem;
+}
+
+.assambly__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.assambly-heading {
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 140%;
+}
+
+.asambly-discription {
+    margin-bottom: 4.52rem;
+    font-size: 1.6rem;
+    line-height: 160%;
+}
+
+.assambly-btn {
+    margin-bottom: 5.08rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 150%;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%)
+}
+
+.assambly__social {
+    padding-bottom: 24.4rem;
+    display: flex;
+}
+
+.assambly__social-icon {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.assambly__social-icon img {
+    width: 50%;
+    height: 50%;
+}
+
+.assambly__social-icon:not(:last-child) {
+    margin-right: 3rem;
 }

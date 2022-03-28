@@ -21,7 +21,7 @@
                     <a href="#" class="">Процесс работы</a>
                     <a href="#" class="">Команда</a>
                 </nav>
-                <button type="button" class="btn header-btn">Оставить заявку</button>
+                <button type="button" class="btn header-btn modal-btn">Оставить заявку</button>
             </div>
 
         </div>
@@ -48,7 +48,7 @@
                         <div class="timer-text">секунд</div>
                     </div>
                 </div>
-                <button class="btn main__display-btn">Оставить заявку</button>
+                <button class="btn main__display-btn modal-btn">Оставить заявку</button>
             </div>
             <div class="main__display-background">
                 <img src="img/main-screen__bgc.jpg" alt="">
@@ -139,7 +139,7 @@
                 <div class="assambly__wrap">
                     <h2 class="assambly-heading">Закажите свою уникальную сборку</h2>
                     <div class="asambly-discription">Мы свяжемся с вами, чтобы уточнить детали заказа</div>
-                    <button class="btn assambly-btn">Оставить заявку</button>
+                    <button class="btn assambly-btn modal-btn">Оставить заявку</button>
                     <div class="assambly__social">
                         <div class="assambly__social-icon">
                             <img src="img/vk-icon.svg" alt="">
@@ -157,6 +157,28 @@
                 </div>
             </div>
         </section>
+
+        <form class="modal" action="#">
+            <div class="modal__inner">
+                <div class="modal-close">
+                    <img src="img/modal-close.svg" alt="">
+                </div>
+                <h3 class="modal-header">Заявка на сборку ПК</h3>
+                <div class="modal-subheader">Мы свяжемся с вами, чтобы обсудить детали заказа</div>
+                <div class="modal__elements">
+                    <div class="modal__item">
+                        <input type="text" class="modal-input" placeholder="Как вас зовут">
+                    </div>
+                    <div class="modal__item">
+                        <input type="tel" class="modal-input" placeholder="номер телефона">
+                    </div>
+                    <div class="modal__item">
+                        <input type="email" class="modal-input" placeholder="E-mail">
+                    </div>             
+                </div>
+                <button type="submit" class="btn main__display-btn">Отправить</button>
+            </div>
+        </form>
 
     </main>
     
